@@ -1,0 +1,36 @@
+.main-title{
+display: block;
+text-align:center
+}
+
+.cards{
+display: flex;
+flex-wrap:wrap;
+margin: 0 5vw;
+}
+
+.card{
+width: 20vw;
+background-color:whitesmoke;
+margin: 5vh 3vw;
+border-radius: 5%;
+text-decoration: none;
+}
+
+.cards a{
+text-decoration: none;}
+
+.card:hover{
+box-shadow: 10px 5px 5px grey;
+}
+
+.card p, h4{
+padding: 1vh 2vw;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+}
+
+.card img{
+width: 20vw;
+border-radius: 5% 5% 0 0 ;
+}
