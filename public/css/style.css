@@ -1,6 +1,10 @@
+/* 
+BLOG HOMEPAGE
+*/
+
 .main-title{
 display: block;
-text-align:center
+text-align:center;
 }
 
 .cards{
@@ -33,4 +37,23 @@ color: black;
 .card img{
 width: 20vw;
 border-radius: 5% 5% 0 0 ;
+}
+
+/* 
+POST PAGE
+*/
+
+.post-title{
+display: block;
+text-align:center;
+}
+
+.post-description, .post-body{
+margin: 5vh 10vw;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.post-image{
+display: block;
+margin: auto auto;
 }

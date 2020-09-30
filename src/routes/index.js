@@ -12,8 +12,17 @@ app.get('/', async function(req, res){
 })
 })
 
-app.get('/post', function(req, res){
-    res.render('show')
+app.get('/post/:id', async function(req, res){
+    const post = await Post.findById(req.params.id);
+
+    res.render('show', {
+        post
+})
+})
+
+app.get('/blog/new', async function(req, res){
+res.render('new')
+
 })
 
 

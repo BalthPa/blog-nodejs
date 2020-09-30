@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/BalthPa/blog-nodejs#readme",
   "dependencies": {
-    "ejs": "^3.1.5",
+    "ejs-locals": "^1.0.2",
     "express": "^4.17.1",
     "mongoose": "^5.10.7",
     "mongoose-data-seed": "^2.1.6"
